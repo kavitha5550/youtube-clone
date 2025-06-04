@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <!-- CDN FA -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- Icon -->
+    <link rel="icon" href="./images/iconyt.png">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- TopNavbar -->
+    <header>
+        <nav class="navbar">
+
+            <div class="nav-logo">
+                <i class="fa-solid fa-bars"></i>
+                <img src="./images/logoyt.png" alt="Youtube">
+            </div>
+
+            <div class="nav-search">
+                <div class="nav-search-input">
+                    <input type="search" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="nav-mike"><i class="fa-solid fa-microphone"></i></div>
+            </div>
+
+            <div class="nav-profile">
+                <i class="fa-solid fa-video"></i>
+                <i class="fa-regular fa-bell"></i>
+                <div class="profile-img">
+                    <img src="./images/profile.jpeg" alt="profile">
+                </div>
+            </div>
+
+        </nav>
+
+        <div class="top-categories">
+            <a href="#" class="cat-list">All</a>
+            <a href="#" class="cat-list">Music</a>
+            <a href="#" class="cat-list">Tamil Cinema</a>
+            <a href="#" class="cat-list">Mixes</a>
+            <a href="#" class="cat-list">Live</a>
+            <a href="#" class="cat-list">News</a>
+            <a href="#" class="cat-list">Gaming</a>
+            <a href="#" class="cat-list">Jukebox</a>
+            <a href="#" class="cat-list">Albums</a>
+            <a href="#" class="cat-list">Motorcycles</a>
+            <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+        </div>
+
+    </header>
+    <!-- TopNavbar -->
+
+    <!-- SideNavbar -->
+    <nav class="side-navbar">
+
+        <ul class="side-navmenu">
+            <li class="side-navlist sidenav-default"><i class="fa-solid fa-house"></i><a href="#"> Home</a></li>
+            <li class="side-navlist"><i class="fa-solid fa-film"></i><a href="#"> Shorts</a></li>
+            <li class="side-navlist"><i class="fa-solid fa-tv"></i><a href="#"> Subscriptions</a></li>
+        </ul>
+
+        <hr>
+
+        <ul class="side-navmenu">
+            <a href="#" class="side-navtitle">You <i class="fa-solid fa-angle-right"></i></a>
+            <li class="side-navlist"><i class="fa-regular fa-circle-user"></i><a href="#"> Your channel</a></li>
+            <li class="side-navlist"><i class="fa-regular fa-clock"></i><a href="#"> History</a></li>
+            <li class="side-navlist"><i class="fa-solid fa-radio"></i><a href="#"> Playlists</a></li>
+            <li class="side-navlist"><i class="fa-regular fa-circle-play"></i><a href="#"> Your videos</a></li>
+            <li class="side-navlist"><i class="fa-regular fa-clock"></i><a href="#"> Watch later</a></li>
+            <li class="side-navlist"><i class="fa-regular fa-thumbs-up"></i><a href="#"> Liked videos</a></li>
+        </ul>
+
+        <hr>
+
+        <ul class="side-navmenu mobile-none">
+            <a href="#" class="side-navtitle">Subscription</a>
+            <li class="side-navlist">
+                <a href="#">
+                    <img src="./images/1sub.png" alt="channel">
+                    <p>Channel 1</p>
+                </a>
+            </li>
+            <li class="side-navlist">
+                <a href="#">
+                    <img src="./images/3sub.jpg" alt="channel">
+                    <p>Channel 2</p>
+                </a>
+            </li>
+            <li class="side-navlist">
+                <a href="#">
+                    <img src="./images/2sub.jpg" alt="channel">
+                    <p>Channel 3</p>
+                </a>
+            </li>
+            <li class="side-navlist"><a href="#"><i class="fa-solid fa-list"></i> All Subscriptions</a></li>
+        </ul>
+
+        <hr>
+
+        <ul class="side-navmenu">
+            <a href="#" class="side-navtitle">Explore</a>
+            <li class="side-navlist"><i class="fa-solid fa-fire-flame-curved"></i> <a href="#">Trending </a></li>
+            <li class="side-navlist"><i class="fa-solid fa-bag-shopping"></i> <a href="#">Shopping</a></li>
+            <li class="side-navlist"><i class="fa-solid fa-music"></i><a href="#"> Music</a></li>
+            <li class="side-navlist"><i class="fa-solid fa-clapperboard"></i><a href="#"> Movies </a></li>
+            <li class="side-navlist"><i class="fa-solid fa-gamepad"></i><a href="#"> Gaming </a></li>
+            <li class="side-navlist"><i class="fa-solid fa-tower-broadcast"></i><a href="#"> Live</a></li>
+            <li class="side-navlist"><i class="fa-regular fa-newspaper"></i><a href="#"> News</a></li>
+            <li class="side-navlist"><i class="fa-solid fa-trophy"></i><a href="#"> Sports</a></li>
+            <li class="side-navlist"><i class="fa-solid fa-book-open"></i><a href="#"> Courses</a></li>
+            <li class="side-navlist"><i class="fa-solid fa-shirt"></i><a href="#"> Fasion & beauty</a></li>
+            <li class="side-navlist"><i class="fa-solid fa-tower-cell"></i><a href="#"> Podcasts</a></li>
+        </ul>
+
+        <hr>
+
+        <ul class="side-navmenu mobile-none">
+            <a href="#" class="side-navtitle">More From Youtube</a>
+            <li class="side-navlist">
+                <a href="#">
+                    <img src="./images/studio.png" alt="logo">
+                    <p>YouTube Studio</p>
+                </a>
+            </li>
+            <li class="side-navlist">
+                <a href="#">
+                    <img src="./images/iconyt.png" alt="logo">
+                    <p>YouTube Premium</p>
+                </a>
+            </li>
+            <li class="side-navlist">
+                <a href="#">
+                    <img src="./images/music.webp" alt="logo">
+                    <p>YouTube Music</p>
+                </a>
+            </li>
+            <li class="side-navlist">
+                <a href="#">
+                    <img src="./images/kids.webp" alt="logo">
+                    <p>YouTube Kids</p>
+                </a>
+            </li>
+        </ul>
+
+        <hr>
+
+        <ul class="side-navmenu">
+            <li class="side-navlist"><i class="fa-solid fa-gear"></i><a href="#"> Setting </a></li>
+            <li class="side-navlist"><i class="fa-regular fa-flag"></i><a href="#"> Report History</a></li>
+            <li class="side-navlist"><i class="fa-regular fa-circle-question"></i><a href="#"> Help</a></li>
+            <li class="side-navlist"><i class="fa-regular fa-message"></i><a href="#"> Send Feedback</a></li>
+        </ul>
+
+    </nav>
+    <!-- SideNavbar -->
+
+    <!-- Videos -->
+    <section class="yt-videos">
+
+        <div class="videos-list">
+
+            <!-- Video 1 -->
+            <div class="videoyt">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GP6yjbAsa08?si=g4vvM1rMYfszVzVt"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="videoyt-info">
+                    <div class="yt-logo">
+                        <img src="./images/1sub.png" alt="logo">
+                    </div>
+                    <div class="yt-text">
+                        <p class="yt-title">
+                            Video Title Here - தமிழ்
+                        </p>
+                        <p class="yt-name">
+                            Youtube Channel
+                        </p>
+                        <p class="yt-date">
+                            1.3K views . 32 minutes ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="videoyt">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7CB0LcKDcKQ?si=Z3V1JCEGLNYuTq4C"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="videoyt-info">
+                    <div class="yt-logo">
+                        <img src="./images/2sub.jpg" alt="logo">
+                    </div>
+                    <div class="yt-text">
+                        <p class="yt-title">
+                            Video Title Here - தமிழ்
+                        </p>
+                        <p class="yt-name">
+                            Youtube Channel
+                        </p>
+                        <p class="yt-date">
+                            1.3K views . 32 minutes ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 3 -->
+            <div class="videoyt">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/w8_ECYMIZ3s?si=kkGXPl-7JN_ukG3G"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="videoyt-info">
+                    <div class="yt-logo">
+                        <img src="./images/1sub.png" alt="logo">
+                    </div>
+                    <div class="yt-text">
+                        <p class="yt-title">
+                            Video Title Here - தமிழ்
+                        </p>
+                        <p class="yt-name">
+                            Youtube Channel
+                        </p>
+                        <p class="yt-date">
+                            1.3K views . 32 minutes ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Video 4 -->
+            <div class="videoyt">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7CB0LcKDcKQ?si=Z3V1JCEGLNYuTq4C"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="videoyt-info">
+                    <div class="yt-logo">
+                        <img src="./images/3sub.jpg" alt="logo">
+                    </div>
+                    <div class="yt-text">
+                        <p class="yt-title">
+                            Video Title Here - தமிழ்
+                        </p>
+                        <p class="yt-name">
+                            Youtube Channel
+                        </p>
+                        <p class="yt-date">
+                            1.3K views . 32 minutes ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 5 -->
+            <div class="videoyt">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bzKu_E3KoR0?si=5CL8ShvN5b0B_J9f"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="videoyt-info">
+                    <div class="yt-logo">
+                        <img src="./images/2sub.jpg" alt="logo">
+                    </div>
+                    <div class="yt-text">
+                        <p class="yt-title">
+                            Video Title Here - தமிழ்
+                        </p>
+                        <p class="yt-name">
+                            Youtube Channel
+                        </p>
+                        <p class="yt-date">
+                            1.3K views . 32 minutes ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 6 -->
+            <div class="videoyt">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GP6yjbAsa08?si=g4vvM1rMYfszVzVt"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="videoyt-info">
+                    <div class="yt-logo">
+                        <img src="./images/1sub.png" alt="logo">
+                    </div>
+                    <div class="yt-text">
+                        <p class="yt-title">
+                            Video Title Here - தமிழ்
+                        </p>
+                        <p class="yt-name">
+                            Youtube Channel
+                        </p>
+                        <p class="yt-date">
+                            1.3K views . 32 minutes ago
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 7 -->
+            <div class="videoyt">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GP6yjbAsa08?si=g4vvM1rMYfszVzVt"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="videoyt-info">
+                    <div class="yt-logo">
+                        <img src="./images/1sub.png" alt="logo">
+                    </div>
+                    <div class="yt-text">
+                        <p class="yt-title">
+                            Video Title Here - தமிழ்
+                        </p>
+                        <p class="yt-name">
+                            Youtube Channel
+                        </p>
+                        <p class="yt-date">
+                            1.3K views . 32 minutes ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 8-->
+            <div class="videoyt">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7CB0LcKDcKQ?si=Z3V1JCEGLNYuTq4C"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="videoyt-info">
+                    <div class="yt-logo">
+                        <img src="./images/2sub.jpg" alt="logo">
+                    </div>
+                    <div class="yt-text">
+                        <p class="yt-title">
+                            Video Title Here - தமிழ்
+                        </p>
+                        <p class="yt-name">
+                            Youtube Channel
+                        </p>
+                        <p class="yt-date">
+                            1.3K views . 32 minutes ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 9 -->
+            <div class="videoyt">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/w8_ECYMIZ3s?si=kkGXPl-7JN_ukG3G"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="videoyt-info">
+                    <div class="yt-logo">
+                        <img src="./images/1sub.png" alt="logo">
+                    </div>
+                    <div class="yt-text">
+                        <p class="yt-title">
+                            Video Title Here - தமிழ்
+                        </p>
+                        <p class="yt-name">
+                            Youtube Channel
+                        </p>
+                        <p class="yt-date">
+                            1.3K views . 32 minutes ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Video 10 -->
+            <div class="videoyt">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7CB0LcKDcKQ?si=Z3V1JCEGLNYuTq4C"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="videoyt-info">
+                    <div class="yt-logo">
+                        <img src="./images/3sub.jpg" alt="logo">
+                    </div>
+                    <div class="yt-text">
+                        <p class="yt-title">
+                            Video Title Here - தமிழ்
+                        </p>
+                        <p class="yt-name">
+                            Youtube Channel
+                        </p>
+                        <p class="yt-date">
+                            1.3K views . 32 minutes ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 11 -->
+            <div class="videoyt">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bzKu_E3KoR0?si=5CL8ShvN5b0B_J9f"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="videoyt-info">
+                    <div class="yt-logo">
+                        <img src="./images/2sub.jpg" alt="logo">
+                    </div>
+                    <div class="yt-text">
+                        <p class="yt-title">
+                            Video Title Here - தமிழ்
+                        </p>
+                        <p class="yt-name">
+                            Youtube Channel
+                        </p>
+                        <p class="yt-date">
+                            1.3K views . 32 minutes ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 12 -->
+            <div class="videoyt">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GP6yjbAsa08?si=g4vvM1rMYfszVzVt"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="videoyt-info">
+                    <div class="yt-logo">
+                        <img src="./images/1sub.png" alt="logo">
+                    </div>
+                    <div class="yt-text">
+                        <p class="yt-title">
+                            Video Title Here - தமிழ்
+                        </p>
+                        <p class="yt-name">
+                            Youtube Channel
+                        </p>
+                        <p class="yt-date">
+                            1.3K views . 32 minutes ago
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
